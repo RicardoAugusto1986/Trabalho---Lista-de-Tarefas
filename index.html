@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Afazeres</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="Icone.jpeg"/>
+    
+  </head>
+  <body class="bg">
+   
+    <div class="topo"><h1>Lista de Afazeres</h1><h4>Organize sua dia incluindo e excluindo suas tarefas</h4></div>
+   
+    <form class="afazeresForm" id="afazeresForm">
+      <input type="text"class="placeholder" id="tarefa" placeholder="Adicione sua tarefa"  />
+      <button class="btn" type="submit">Adicionar tarefas</button>
+      
+      <p class="alert"></p>
+      
+    </form>
+    <div class= "confirmar">
+        <h2>Deseja realmenter excluir esta tarefa?</h2>
+        <button onclick="sim()">SIM</button>
+        <button onclick="nao()">NÃO</button>
+    </div>
+    
+    <div class="content">       
+    </div>
+    
+    <script src="afazeres.js"></script>
+  
+  </body>
+</html>

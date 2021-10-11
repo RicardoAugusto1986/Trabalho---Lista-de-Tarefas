@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    margin: 0;
+}
+.bg{
+    background-image: url("Tarefa4.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-position: center; 
+}
+.topo h1{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background-color: rgb(194, 201, 199); 
+}
+.topo{ 
+    background-position-y: 300px;
+    padding: 10px 0 0;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(233, 233, 245, 0);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border: solid 2px rgb(22, 22, 24);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction:  column;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+
+
+#afazeresForm{
+  display: flex;
+  align-items: center;
+  flex-direction:  column;
+  justify-content: center;
+  position: relative;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+  background: rgba(241, 186, 5, 0.712) ;
+  padding: 20px ; 
+  width: 500px;
+  border: solid 2px rgb(22, 22, 24);
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  
+  
+}
+.alert {
+  display: none;
+  
+}
+.deletar{
+    background-color: red;
+    color: white;
+    padding: 6px 8px 6px 8px;
+    border-radius: 5px;
+    border: solid 2px black;
+    font-size: 10px;
+    
+}
+.check{
+    width: 20px;
+    height: 20px;
+}
+
+
+.content{
+    
+    padding:  10px 1px 10px 1px ; 
+    margin: 0 auto;
+    background: rgba(231, 180, 103, 0.925) ;
+    margin-top: 10px; 
+    border: solid 2px rgb(22, 22, 24);
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 10px;
+   
+    
+  }
+  
+  input{
+    padding: 5px;
+    border: solid 2px rgb(22, 22, 24);
+    width: 300px; 
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    
+  }  
+  
+  .btn{
+    cursor: pointer;
+    font-weight: bold;  
+    padding: 10px;
+    border: solid 1px rgb(8, 8, 8);
+    margin-top: 10px;
+    border-radius: 5px;
+    color: black;
+    background-color: darkgray;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  button{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    color: black; 
+    background-color:darkgray ;
+    font-weight: bold;
+    cursor: pointer;
+}
+.content input{
+   
+    justify-content: flex-end;
+    width: 30px;
+    justify-content: center;
+}
+.caixa{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 5px;
+    width: 450px;
+    
+    
+    
+}
+.caixa label{
+ display: flex;
+ justify-content: flex-end;
+ margin-left: 50%;
+ cursor: pointer;
+}
+.caixa button{
+    margin-right: 20%;
+}
+.caixa input{
+    cursor: pointer;
+    
+}
+.listaTarefa{
+    color: black;
+    font-weight: bold;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.riscado{
+    text-decoration:line-through;
+}
+
+.confirmar{
+    left: 0;
+    right: 0;  
+    margin: 0 auto;
+    display: none;
+    position: absolute;
+    text-align: center;
+    padding:  10px 1px 10px 1px ; 
+    margin: 0 auto;
+    background: rgba(245, 83, 19, 0.925) ;
+    margin-top: 10px; 
+    border: solid 2px rgb(22, 22, 24);
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 10px;
+}
+.placeholder{
+    text-align: center;
+}
+  
+  
